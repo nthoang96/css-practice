@@ -1,0 +1,21 @@
+:root {
+  --bg-color: aqua;
+  --color: white;
+}
+
+div {
+  background: var(--bg-color);
+}
+
+h1 {
+  color: var(--color);
+}
+
+h2 {
+  color: var(--color);
+}
+
+h3 {
+  --color: brown;
+  color: var(--color);
+}
