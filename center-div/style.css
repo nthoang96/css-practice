@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent-div {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  /* using position */
+  /* position: relative; */
+
+  /* using flex */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+ 
+  /* using grid */
+  display: grid;
+  place-items: center;
+}
+
+.child-div {
+  width: 60vw;
+  height: 60vh;
+  background-color: antiquewhite;
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+}
